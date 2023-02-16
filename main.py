@@ -20,4 +20,7 @@ print("Enter numbers separated by spaces:")
 arr = input().split()
 print("Sum: " + str(sumArray(arr)))
 print("Product: " + str(productArray(arr)))
+
 print("Reversed: " + str(reverseArray(arr)))
+
+#This is a comment
