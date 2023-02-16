@@ -11,8 +11,13 @@ def productArray(arr):
         product *= int(arr[i])
     return product
 
+def reverseArray(arr):
+    return arr[::-1]
+
+
 
 print("Enter numbers separated by spaces:")
 arr = input().split()
 print("Sum: " + str(sumArray(arr)))
 print("Product: " + str(productArray(arr)))
+print(reverseArray(arr))
