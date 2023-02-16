@@ -16,3 +16,5 @@ print("Enter numbers separated by spaces:")
 arr = input().split()
 print("Sum: " + str(sumArray(arr)))
 print("Product: " + str(productArray(arr)))
+
+#This is a comment
